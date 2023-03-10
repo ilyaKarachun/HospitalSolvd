@@ -4,7 +4,7 @@
   "description": "Project for SOLVD's trainee",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "Karachun Ilya",
