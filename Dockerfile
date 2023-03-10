@@ -8,8 +8,8 @@ RUN npm install
 
 COPY . .
 
-ENV PORT = 2000
+ENV PORT=2000
 
 EXPOSE 2000
 
-ENTRYPOINT ["node", "index.js"]
+CMD ["node", "index.js"]

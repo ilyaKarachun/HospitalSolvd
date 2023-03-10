@@ -1,6 +1,6 @@
 {
   "name": "hospitalsolvd",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Project for SOLVD's trainee",
   "main": "index.js",
   "scripts": {
