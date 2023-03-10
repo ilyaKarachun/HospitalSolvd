@@ -1,0 +1,12 @@
+{
+  "name": "hospitalsolvd",
+  "version": "1.0.0",
+  "description": "Project for SOLVD's trainee",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Karachun Ilya",
+  "license": "ISC"
+}
