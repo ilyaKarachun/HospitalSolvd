@@ -3,10 +3,19 @@
   "version": "0.1.0",
   "description": "Project for SOLVD's trainee",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js"
   },
   "keywords": [],
   "author": "Karachun Ilya",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
 }
