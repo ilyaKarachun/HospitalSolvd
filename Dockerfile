@@ -4,12 +4,14 @@ WORKDIR /app
 
 COPY package*.json ./
 
-RUN npm install
+RUN npm i -s
 
 COPY . .
+
+RUN npm install -g ts-node
 
 ENV PORT=2000
 
 EXPOSE 2000
 
-CMD ["node", "index.js"]
+CMD ["ts-node", "index.ts"]
