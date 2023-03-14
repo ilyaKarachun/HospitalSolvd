@@ -1,9 +1,9 @@
-import http from "node:http";
+import * as http from "node:http";
 import * as dotenv from "dotenv";
 
 dotenv.config();
 
-const PORT = process.env.APP_PORT || 2000;
+const PORT: number = Number(process.env.APP_PORT) || 2000;
 
 http
   .createServer(function (req, res) {
@@ -12,7 +12,7 @@ http
       res.write(
         "<h1>Hi, Mikhail !!! Here will be my project about hospital</h1>"
       );
-    } else {
+    }  else {
       res.write("<h1>You can't found pages here(</h1>");
     }
     res.end();
